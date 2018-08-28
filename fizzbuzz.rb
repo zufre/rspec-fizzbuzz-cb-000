@@ -3,7 +3,7 @@
 
 
 def fizzbuzz(num)
-  if num % 3 === 0
+  if num.to_i % 3 === 0
     "Fizz"
   end
 end

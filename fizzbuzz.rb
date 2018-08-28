@@ -2,9 +2,10 @@
 # See README.md for instructions on how to do this
 
 require 'pry'
+binding.pry
 def fizzbuzz(num)
   if num % 3 === 0
     "Fizz"
   end
 end
-binding.pry
+

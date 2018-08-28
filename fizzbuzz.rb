@@ -3,7 +3,10 @@
 
 
 def fizzbuzz(num)
-  if num.to_i % 3 === 0
+  if num % 3 === 0
     "Fizz"
+  elsif num % 5 ===0
+    "Buzz"
+    
   end
 end
